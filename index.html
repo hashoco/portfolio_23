@@ -17,152 +17,261 @@
     <!--Navbar-->
     <nav id="navbar">
         <div class="navbar__logo">
-            <img src="imgs/favicon.png" alt="" width="10px" height="15px">
-            <a href="#">Oco</a>
+            <!--이미지를 못골라서 임시 주석처리-->
+            <!--<img src="imgs/favicon.png" alt="" width="10px" height="15px">-->
+            <a href="#">Yang</a>
         </div>
         <div class="navbar__menu">
-            <ul class="navbar_menu">
-                <li class="navbar__menu__item">Home</li>
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item active">Home</li>
                 <li class="navbar__menu__item">About</li>
                 <li class="navbar__menu__item">Skills</li>
                 <li class="navbar__menu__item">My Work</li>
-                <li class="navbar__menu__item">Testimonial</li>
+                <!--li class="navbar__menu__item">Testimonial</li-->
                 <li class="navbar__menu__item">Contact</li>
             </ul>
 
         </div>
     </nav>
-    <section id="Hmoe">
-        <img src="imgs/favicon.png" alt="Y's Portfolio Photo" classs="home__avatar"/>
-        <h1 class="home__tilte">Hello,<br> I'm Uoco</h1>
-        <h2 class="home__description">S/W Programming engineer</h2>
+    <section id="home">
+        <img src="imgs/favicon.png" alt="Y's Portfolio Photo" class="home__avatar"/>
+        <h1 class="home__title">안녕하세요!<br> 7년차 ERP 개발자 Yang입니다.</h1>
+        <h2 class="home__description">ERP 소프트웨어 프로그래밍이 본업이지만, <br> 웹개발도 꾸준히 공부중입니다.</h2>
         <button class="home__contact">Contact Me</button>
     </section>
-    <section id="about">
+    <section id="about" class="section">
     <h1>About Me</h1>
     <p>
-        나를 어필할 수 있는 문장 적기
+        성실과 열정으로 내일을 맞이하는 개발자 Yang입니다.
+        
+        
     </p>
-    <div class="about__major">
+    <div class="about__majors">
         <div class="major">
             <div class="major__icon">
                 <i class="fa-brands fa-html5"></i>
             </div>
-            <div class="major__title">Front-end</div>
+            <h2 class="major__title">Frond-end</h2>
             <div class="major__description">
-                HTML, CSS, JavaScript, TypeScript
-                <br/>React, Vue, Web APIs
+                HTML, CSS, JavaScript
+                <br/>JSP, React, MiplatForm, Nexacro
+                
             </div>
         </div>
         <div class="major">
             <div class="major__icon">
-                <i class="fa-brands fa-html5"></i>
+                <i class="fa-sharp fa-solid fa-computer"></i>
             </div>
-            <div class="major__title">Front-end</div>
+            <h2 class="major__title">Back-end</h2>
             <div class="major__description">
-                HTML, CSS, JavaScript, TypeScript
-                <br/>React, Vue, Web APIs
+                Java Spring, Node.js
             </div>
         </div>
         <div class="major">
             <div class="major__icon">
-                <i class="fa-brands fa-html5"></i>
+                <i class="fa-solid fa-database"></i>
             </div>
-            <div class="major__title">Front-end</div>
+            <h2 class="major__title">Database</h2>
             <div class="major__description">
-                HTML, CSS, JavaScript, TypeScript
-                <br/>React, Vue, Web APIs
-            </div>
-        </div>
-        <div class="about__jobs">
-            <div class="job">
-                <img src="imgs/jobs/ITCOMPANY.png" alt="" class="job__logo" width="100" height="100">
-                <p class ="job__name"></p>
-                <p class ="job__period"></p>
+                Oracle, MSsql, Mysql
             </div>
         </div>
     </div>
-
-    </section>
-    <section id="skills">
-        <h1>Skills</h1>
-        <h2>Skill $ Attributes</h2>
-        <p>스킬 관련 문구 작성하기</p>
-        <div class="skillset">
-            <div class="skillset__left">
-                <h3 class="skillset_title">Skills</h3>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>HTML</span>
-                        <span>99%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <div class="skill__value"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>JAVASCRIPT</span>
-                        <span>80%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <div class="skill__value"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>SQL</span>
-                        <span>85%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <div class="skill__value"></div>
-                    </div>
-                </div>
+    <div class="about__jobs">
+        <div class="job">
+            <img src="imgs/jobs/nst.png" alt="" class="job__logo" width="150" height="80">
+            <div class="job__description">
+              <p class ="job__name"> 나인에스티</p>
+              <p class ="job__period">2016년 08월 ~ 2019년 08월</p>
             </div>
-            <div class="skillset__right">
-                <div class="tools">
-                    <h3 class="skillset_title">Tools</h3>
-                    <ul class="tools_list">
-                        <li><span>Visual Studio Code</span></li>
-                        <li><span>tool1</span></li>
-                        <li><span>tool2</span></li>
-                        <li><span>tool3</span></li>
-                        <li><span>tool4</span></li>
-                        <li><span>tool5</span></li>
-                    </ul>
+        </div>
+        <div class="job">
+            <img src="imgs/jobs/sekanskeen.png" alt="" class="job__logo" width="150" height="80">
+            <div class="job__description">
+                <p class ="job__name"> 세컨스킨</p>
+                <p class ="job__period">2019년 09월 ~ 2020년 09월</p>
+              </div>
+        </div>
+        <div class="job">
+            <img src="imgs/jobs/holdings.png" alt="" class="job__logo" width="150" height="80">
+            <div class="job__description">
+                <p class ="job__name"> 더네이쳐홀딩스</p>
+                <p class ="job__period">2020년 10월 ~ 재직중</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="skills" class="section">
+        <div class="section__container">
+            <h1>Skills</h1>
+            <h2>Skill & Attributes</h2>
+            <div class="skillset">
+                <div class="skillset__left">
+                    <h3 class="skillset_title">Skills</h3>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>HTML/CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>React</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>JSP</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>DataBase</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Java Spring</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 70%;"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="etc">
-                    <h3 class="skillset_title">Etc</h3>
-                    <ul class="etc__list">
-                        <li><span>Git</span></li>
-                        <li><span>Git2</span></li>
-                        <li><span>Git3</span></li>
-                    </ul>
+                <div class="skillset__right">
+                    <div class="tools">
+                        <h3 class="skillset_title">Tools</h3>
+                        <ul class="tools_list">
+                            <li><span>Visual Studio Code</span></li>
+                            <li><span>Visual Studio</span></li>
+                            <li><span>Eclipse</span></li>
+                            <li><span>Toad</span></li>
+                            <li><span>Ms SQL Server</span></li>
+                            <li><span>Workbench</span></li>
+                        </ul>
+                    </div>
+                    <div class="etc" class="section">
+                        <h3 class="skillset_title">Etc</h3>
+                        <ul class="etc__list">
+                            <li><span>Git</span></li>
+                            <li><span>GitHup</span></li>
+                            <li><span>Putty</span></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-
+       
     </section>
-    <section id="work">
+   
+    <section id="work" class="section">
         <h1>My Works</h1>
         <h3>Projects</h3>
-        <div class="work__categories">
+        <!--div class="work__categories">
             <button class="category__btn">ALL<span class="category__count">8</span></button>
-            <button class="category__btn">Front-end<span class="category__count">4</span></button>
-            <button class="category__btn">Back-end<span class="category__count">3</span></button>
-            <button class="category__btn">Bobile<span class="category__count">1</span></button>
-        </div>
+            <button class="category__btn">Sales<span class="category__count">4</span></button>
+            <button class="category__btn">Pos<span class="category__count">3</span></button>
+            <button class="category__btn">Accounting<span class="category__count">1</span></button>
+        </div-->
         <div class="work__projects">
             <a href="" class="project" target="">
-                <img src="imgs//projects/favicon.png" alt="" class="project__img">
+                <p class="project__text">안보지원사령부(구 기무사령부)<br> 웹개발 프로젝트</p>
+                <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
                 <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Clone Coding</span>
+                    <h3>소속 회사</h3>
+                    <h4>나인에스티(컨설팅본부)</h4>
+                    <h3>기간</h3>
+                    <h4>1)2017.04 ~ 2017.09 <br/>2)2018.06 ~ 2018.12</h4>
+                    <h3>담당</h3>
+                    <h4>기밀</h4>
+                    <h3>사용기술</h3>
+                    <h4>javascript , oracle</h4>
+                </div>
+            </a>
+            <a href="" class="project" target="">
+                <p class="project__text">태성스틸 ERP 도입 프로젝트</p>
+                <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                <div class="project__description">
+                    <h3>소속 회사</h3>
+                    <h4>나인에스티(컨설팅본부)</h4>
+                    <h3>기간</h3>
+                    <h4>2018.12 ~ 2019.02 </h4>
+                    <h3>담당</h3>
+                    <h4>자재</h4>
+                    <h3>사용기술</h3>
+                    <h4>C# , Mssql</h4>
+                </div>
+            </a>
+            <a href="" class="project" target="">
+                <p class="project__text">유유제약 ERP 도입 프로젝트</p>
+                <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                <div class="project__description">
+                    <h3>소속 회사</h3>
+                    <h4>나인에스티(컨설팅본부)</h4>
+                    <h3>기간</h3>
+                    <h4>2019.02 ~ 2019.07 </h4>
+                    <h3>담당</h3>
+                    <h4>영업</h4>
+                    <h3>사용기술</h3>
+                    <h4>C# , Mssql</h4>
+                </div>
+            </a>
+            <a href="" class="project" target="">
+                <p class="project__text">지앤지엔터프라이즈 악산공장 <br/>MES 도입 및 고도화 프로젝트</p>
+                <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                <div class="project__description">
+                    <h3>소속 회사</h3>
+                    <h4>지앤지엔터프라이즈(전산팀)</h4>
+                    <h3>기간</h3>
+                    <h4>1)2019.08 ~ 2019.12 <br/>2)2020.06 ~ 2020.08</h4>
+                    <h3>담당</h3>
+                    <h4>자재 및 공정관리</h4>
+                    <h3>사용기술</h3>
+                    <h4>Delphi , oracle</h4>
+                </div>
+            </a>
+            <a href="" class="project" target="">
+                <p class="project__text">CA/AS 고도화</p>
+                <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                <div class="project__description">
+                    <h3>소속 회사</h3>
+                    <h4>더네이쳐홀딩스(전산팀)</h4>
+                    <h3>기간</h3>
+                    <h4>2021.03 ~ 2021.06</h4>
+                    <h3>담당</h3>
+                    <h4>CS/AS</h4>
+                    <h3>사용기술</h3>
+                    <h4>MiplatForm , oracle</h4>
                 </div>
             </a>
         </div>
     </section>
-    <section id="contact">
+    <section id="contact" class="section">
         <h1 class="contact__title">Let's talk</h1>
         <h2 class="contact__email">uoco91@gmail.com</h2>
         <div class="contact__links">
@@ -174,7 +283,7 @@
             </a>
         </div>
         <p class="contact__rights">
-            2023 Y - All rights reserved
+            2023 Yang - All rights reserved
         </p>
     </section>
 </body>
