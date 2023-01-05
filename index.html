@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Y's Portfolio</title>
-    <meta name="description" content="Portfolio for world-renowned software engineer Ellie">
-    <meta name="author" content="Ellie">
+    <title>Yang's Portfolio</title>
+    <meta name="description" content="Portfolio for ERP engineer Yang">
+    <meta name="author" content="Yang">
     <link rel="icon" type="image/png" href="imgs/favicon.png">
     <script src="https://kit.fontawesome.com/0a555259d6.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
@@ -27,11 +27,12 @@
                 <li class="navbar__menu__item">About</li>
                 <li class="navbar__menu__item">Skills</li>
                 <li class="navbar__menu__item">My Work</li>
-                <!--li class="navbar__menu__item">Testimonial</li-->
                 <li class="navbar__menu__item">Contact</li>
             </ul>
-
         </div>
+        <button class="navbar__toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
     </nav>
     <section id="home">
         <img src="imgs/favicon.png" alt="Y's Portfolio Photo" class="home__avatar"/>
@@ -42,9 +43,7 @@
     <section id="about" class="section">
     <h1>About Me</h1>
     <p>
-        성실과 열정으로 내일을 맞이하는 개발자 Yang입니다.
-        
-        
+        I am Yang, a developer who greets tomorrow with sincerity and passion.
     </p>
     <div class="about__majors">
         <div class="major">
@@ -81,21 +80,21 @@
         <div class="job">
             <img src="imgs/jobs/nst.png" alt="" class="job__logo" width="150" height="80">
             <div class="job__description">
-              <p class ="job__name"> 나인에스티</p>
+              <p class ="job__name"> 나인에스티 - 컨설팅본부</p>
               <p class ="job__period">2016년 08월 ~ 2019년 08월</p>
             </div>
         </div>
         <div class="job">
             <img src="imgs/jobs/sekanskeen.png" alt="" class="job__logo" width="150" height="80">
             <div class="job__description">
-                <p class ="job__name"> 세컨스킨</p>
+                <p class ="job__name"> 세컨스킨 - 전산팀</p>
                 <p class ="job__period">2019년 09월 ~ 2020년 09월</p>
               </div>
         </div>
         <div class="job">
             <img src="imgs/jobs/holdings.png" alt="" class="job__logo" width="150" height="80">
             <div class="job__description">
-                <p class ="job__name"> 더네이쳐홀딩스</p>
+                <p class ="job__name"> 더네이쳐홀딩스 - 전산팀</p>
                 <p class ="job__period">2020년 10월 ~ 재직중</p>
             </div>
         </div>
@@ -190,87 +189,85 @@
     </section>
    
     <section id="work" class="section">
-        <h1>My Works</h1>
-        <h3>Projects</h3>
-        <!--div class="work__categories">
-            <button class="category__btn">ALL<span class="category__count">8</span></button>
-            <button class="category__btn">Sales<span class="category__count">4</span></button>
-            <button class="category__btn">Pos<span class="category__count">3</span></button>
-            <button class="category__btn">Accounting<span class="category__count">1</span></button>
-        </div-->
-        <div class="work__projects">
-            <a href="" class="project" target="">
-                <p class="project__text">안보지원사령부(구 기무사령부)<br> 웹개발 프로젝트</p>
-                <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
-                <div class="project__description">
-                    <h3>소속 회사</h3>
-                    <h4>나인에스티(컨설팅본부)</h4>
-                    <h3>기간</h3>
-                    <h4>1)2017.04 ~ 2017.09 <br/>2)2018.06 ~ 2018.12</h4>
-                    <h3>담당</h3>
-                    <h4>기밀</h4>
-                    <h3>사용기술</h3>
-                    <h4>javascript , oracle</h4>
-                </div>
-            </a>
-            <a href="" class="project" target="">
-                <p class="project__text">태성스틸 ERP 도입 프로젝트</p>
-                <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
-                <div class="project__description">
-                    <h3>소속 회사</h3>
-                    <h4>나인에스티(컨설팅본부)</h4>
-                    <h3>기간</h3>
-                    <h4>2018.12 ~ 2019.02 </h4>
-                    <h3>담당</h3>
-                    <h4>자재</h4>
-                    <h3>사용기술</h3>
-                    <h4>C# , Mssql</h4>
-                </div>
-            </a>
-            <a href="" class="project" target="">
-                <p class="project__text">유유제약 ERP 도입 프로젝트</p>
-                <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
-                <div class="project__description">
-                    <h3>소속 회사</h3>
-                    <h4>나인에스티(컨설팅본부)</h4>
-                    <h3>기간</h3>
-                    <h4>2019.02 ~ 2019.07 </h4>
-                    <h3>담당</h3>
-                    <h4>영업</h4>
-                    <h3>사용기술</h3>
-                    <h4>C# , Mssql</h4>
-                </div>
-            </a>
-            <a href="" class="project" target="">
-                <p class="project__text">지앤지엔터프라이즈 악산공장 <br/>MES 도입 및 고도화 프로젝트</p>
-                <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
-                <div class="project__description">
-                    <h3>소속 회사</h3>
-                    <h4>지앤지엔터프라이즈(전산팀)</h4>
-                    <h3>기간</h3>
-                    <h4>1)2019.08 ~ 2019.12 <br/>2)2020.06 ~ 2020.08</h4>
-                    <h3>담당</h3>
-                    <h4>자재 및 공정관리</h4>
-                    <h3>사용기술</h3>
-                    <h4>Delphi , oracle</h4>
-                </div>
-            </a>
-            <a href="" class="project" target="">
-                <p class="project__text">CA/AS 고도화</p>
-                <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
-                <div class="project__description">
-                    <h3>소속 회사</h3>
-                    <h4>더네이쳐홀딩스(전산팀)</h4>
-                    <h3>기간</h3>
-                    <h4>2021.03 ~ 2021.06</h4>
-                    <h3>담당</h3>
-                    <h4>CS/AS</h4>
-                    <h3>사용기술</h3>
-                    <h4>MiplatForm , oracle</h4>
-                </div>
-            </a>
+        <div class="section__container">
+            <h1>My Works</h1>
+            <h2>Projects</h2>
+            <div class="work__projects">
+                <a href="" class="project" target="">
+                    <p class="project__text">안보지원사령부(구 기무사령부)<br> 웹개발 및 고도화 프로젝트</p>
+                    <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                    <div class="project__description">
+                        <h3>소속 회사</h3>
+                        <h4>나인에스티(컨설팅본부)</h4>
+                        <h3>기간</h3>
+                        <h4>2017.04 ~ 2017.09 <br/>2018.06 ~ 2018.12</h4>
+                        <h3>담당</h3>
+                        <h4>기밀</h4>
+                        <h3>사용기술</h3>
+                        <h4>javascript , oracle</h4>
+                    </div>
+                </a>
+                <a href="" class="project" target="">
+                    <p class="project__text">태성스틸 ERP 도입 프로젝트</p>
+                    <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                    <div class="project__description">
+                        <h3>소속 회사</h3>
+                        <h4>나인에스티(컨설팅본부)</h4>
+                        <h3>기간</h3>
+                        <h4>2018.12 ~ 2019.02 </h4>
+                        <h3>담당</h3>
+                        <h4>자재</h4>
+                        <h3>사용기술</h3>
+                        <h4>C# , Mssql</h4>
+                    </div>
+                </a>
+                <a href="" class="project" target="">
+                    <p class="project__text">유유제약 ERP 도입 프로젝트</p>
+                    <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                    <div class="project__description">
+                        <h3>소속 회사</h3>
+                        <h4>나인에스티(컨설팅본부)</h4>
+                        <h3>기간</h3>
+                        <h4>2019.02 ~ 2019.07 </h4>
+                        <h3>담당</h3>
+                        <h4>영업</h4>
+                        <h3>사용기술</h3>
+                        <h4>C# , Mssql</h4>
+                    </div>
+                </a>
+                <a href="" class="project" target="">
+                    <p class="project__text">지앤지엔터프라이즈 악산공장 <br/>MES 도입 및 고도화 프로젝트</p>
+                    <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                    <div class="project__description">
+                        <h3>소속 회사</h3>
+                        <h4>지앤지엔터프라이즈(전산팀)</h4>
+                        <h3>기간</h3>
+                        <h4>2019.08 ~ 2019.12 <br/>2020.06 ~ 2020.08</h4>
+                        <h3>담당</h3>
+                        <h4>자재 및 공정관리</h4>
+                        <h3>사용기술</h3>
+                        <h4>Delphi , oracle</h4>
+                    </div>
+                </a>
+                <a href="" class="project" target="">
+                    <p class="project__text">CA/AS 고도화</p>
+                    <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                    <div class="project__description">
+                        <h3>소속 회사</h3>
+                        <h4>더네이쳐홀딩스(전산팀)</h4>
+                        <h3>기간</h3>
+                        <h4>2021.03 ~ 2021.06</h4>
+                        <h3>담당</h3>
+                        <h4>CS/AS</h4>
+                        <h3>사용기술</h3>
+                        <h4>MiplatForm , oracle</h4>
+                    </div>
+                </a>
+            </div>
         </div>
+       
     </section>
+
     <section id="contact" class="section">
         <h1 class="contact__title">Let's talk</h1>
         <h2 class="contact__email">uoco91@gmail.com</h2>
