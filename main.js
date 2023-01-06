@@ -6,11 +6,22 @@ document.addEventListener('scroll',()=>{
   //  console.log(window.scrollY);
     console.log(`navbarHeight${navbarHeight}`);
     if(window.scrollY > navbarHeight){
-        console.log(`내려갈때`);
         navbar.classList.add('navbar--dark');
     }else{
-        console.log(`올라갈때`);
         navbar.classList.remove('navbar--dark');
     }
 
+});
+
+//navbar scrolling handle
+const navbarMenu = document.querySelector('.navbar__menu');
+navbarMenu.addEventListener('click',(event)=>{
+const target = event.target;
+const link = target.dataset.link;
+if(link == null){
+    return;
+}
+console.log(event.target.dataset.link);
+const scrollTo = document.querySelector(link);
+scrollTo.scrollIntoView({behavior : 'smooth'}); 
 });

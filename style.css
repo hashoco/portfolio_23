@@ -111,6 +111,7 @@
     padding: 15px;
     background-color: transparent;
     transition: all var(--animation-duration) ease-in-out;
+    z-index: 1; /*맨위를 고정*/
   }
   #navbar.navbar--dark{
     background-color: pink;
