@@ -21,7 +21,7 @@
             <!--<img src="imgs/favicon.png" alt="" width="10px" height="15px">-->
             <a href="#">Yang</a>
         </div>
-        <div class="navbar__menu">
+        
             <ul class="navbar__menu">
                 <li class="navbar__menu__item active" data-link="#home">Home</li>
                 <li class="navbar__menu__item" data-link="#about">About</li>
@@ -29,18 +29,21 @@
                 <li class="navbar__menu__item" data-link="#work">My Work</li>
                 <li class="navbar__menu__item" data-link="#contact">Contact</li>
             </ul>
-        </div>
+        
         <button class="navbar__toggle-btn">
             <i class="fa-solid fa-bars"></i>
         </button>
     </nav>
     <section id="home">
-        <img src="imgs/favicon.png" alt="Y's Portfolio Photo" class="home__avatar"/>
-        <h1 class="home__title">안녕하세요!<br> 7년차 ERP 개발자 Yang입니다.</h1>
-        <h2 class="home__description">ERP 소프트웨어 프로그래밍이 본업이지만, <br> 웹개발도 꾸준히 공부중입니다.</h2>
-        <button class="home__contact">Contact Me</button>
+        <div class="scroll__container">
+            <img src="imgs/favicon.png" alt="Y's Portfolio Photo" class="home__avatar"/>
+            <h1 class="home__title">안녕하세요!<br> 7년차 ERP 개발자 Yang입니다.</h1>
+            <h2 class="home__description">ERP 소프트웨어 프로그래밍이 본업이지만, <br> 웹개발도 꾸준히 공부중입니다.</h2>
+            <button class="home__contact">Contact Me</button>
+        </div>
     </section>
     <section id="about" class="section">
+        
     <h1>About Me</h1>
     <p>
         I am Yang, a developer who greets tomorrow with sincerity and passion.
@@ -283,5 +286,8 @@
             2023 Yang - All rights reserved
         </p>
     </section>
+    <button class="arrow-up">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 </body>
 </html>

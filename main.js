@@ -21,7 +21,47 @@ const link = target.dataset.link;
 if(link == null){
     return;
 }
-console.log(event.target.dataset.link);
-const scrollTo = document.querySelector(link);
-scrollTo.scrollIntoView({behavior : 'smooth'}); 
+navbarMenu.classList.remove('open');
+    scrollIntoViews(link);
 });
+
+const contactMe = document.querySelector('.home__contact');
+contactMe.addEventListener('click',(event)=>{
+    scrollIntoViews('#contact');
+});
+
+//home slowly fade 
+const home = document.querySelector('.scroll__container');
+const homeHeight = home.getBoundingClientRect().height;
+document.addEventListener('scroll',()=>{
+home.style.opacity = 1 - window.scrollY / homeHeight;
+
+});
+//show arrow-up
+const arrowUp = document.querySelector('.arrow-up')
+document.addEventListener('scroll',()=>{
+    
+    if(window.scrollY > homeHeight/2){
+        arrowUp.classList.add('visible');
+
+    }else{
+        arrowUp.classList.remove('visible');
+    }
+});
+
+arrowUp.addEventListener('click',()=>{
+    scrollIntoViews('#home')
+})
+
+//toggle click event
+const toggleClick = document.querySelector('.navbar__toggle-btn')
+toggleClick.addEventListener('click',()=>{
+    navbarMenu.classList.toggle('open');
+   
+})
+
+
+function scrollIntoViews(select){
+    const scrollTo = document.querySelector(select);
+    scrollTo.scrollIntoView({behavior : 'smooth'}); 
+}

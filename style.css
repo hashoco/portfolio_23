@@ -126,6 +126,7 @@
   .navbar__menu {
     display: flex;
   }
+
   
   .navbar__menu__item {
     padding: 8px 12px;
@@ -146,7 +147,7 @@
   
   .navbar__toggle-btn {
     position: absolute;
-    top: 24px;
+    top: 22px;
     right: 32px;
     font-size: 24px;
     color: var(--color-white);
@@ -182,7 +183,10 @@
     border: 2px solid var(--color-white);
     border-radius: var(--size-border-radius);
   }
-  
+  .home__contact:hover {
+    color: var(--color-orange);
+    
+  }
   /* Section common */
   .section {
     padding: 50px;
@@ -199,7 +203,7 @@
   .about__majors {
     display: flex;
     justify-content: space-between;
-    margin: 80px 0;
+    margin: 30px 0;
   }
   
   .major__icon {
@@ -395,7 +399,7 @@
   }
   
   .project__description h3 {
-    color: var(--color-white);
+    color: var(--color-orange);
     margin: 3px 0px;
 
 }
@@ -455,27 +459,62 @@
     color: var(--color-yellow);
   }
   
+   .arrow-up{
+    position: fixed;
+    bottom:50px;
+    right: 50px;
+    width: 70px;
+    height: 70px;
+    font-size:50px;
+    color: var(--color-white);
+    background-color : var(--color-blue);
+    border-radius: 50%;
+    opacity: 0;
+    transition:  opacity 300ms ease-in;
+    pointer-events: none;
+   }  
+   
+    .arrow-up.visible{
+        opacity: 1;
+        pointer-events: auto;
+    }
+
   /* For below 768px screen width */
   /*반응형 작업*/
   @media screen and (max-width: 768px) {
     .navbar__toggle-btn {
       display: block;
+      top:15px;
+
     }
   
     #navbar {
       flex-direction: column;
       align-items: flex-start;
+      background-color: var(--color-blue);
     
 
     }
-  
+    #navbar.navbar-dark {
+        padding: 16px;
+      }
+  .section{
+    padding: 16px;
+    padding-top:40px;
+  }
+
     .navbar__menu {
       flex-direction: column;
       text-align: center;
       width: 100%;
       display: none;
     }
+    .navbar__menu.open{
+        display: block;
+    }
   
+
+    
     .about__majors {
       flex-direction: column;
     }
