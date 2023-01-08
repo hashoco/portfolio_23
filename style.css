@@ -128,7 +128,9 @@
     display: flex;
   }
 
-  
+  .firstimg{
+    display: none;
+  }
   .navbar__menu__item {
     padding: 8px 12px;
     margin: 0 4px;
