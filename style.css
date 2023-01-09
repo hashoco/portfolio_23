@@ -213,7 +213,7 @@
   .about__jobs {
     
     
-    margin: 50px 0 10px 20px;
+    margin: 50px 20px 10px 20px;
     
   }
 
@@ -256,6 +256,9 @@
   }
   .job__logo{
     margin-right:20px;
+    width:150px;
+    height: 80px;
+    object-fit: contain;
   }
   
   .job__description {
@@ -267,7 +270,7 @@
   .job__period {
     color: var(--color-light-grey);
     height: 30px;
-    width: 180px;
+    width: 150px;
   }
   
   .job__name {
@@ -571,4 +574,12 @@
    .home__title{
     font-size: var(--font-large);
    }  
+
+  .job__name {
+    font-size: 13px;
+  }
+  
+  .job__period {
+    font-size: 11px;
+  }
   }
