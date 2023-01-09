@@ -557,12 +557,13 @@
     }
   
      .arrow-up {
-      width: 50px;
+      width: 35px;
       height: 50px;
       font-size: 30px;
       line-height: 50px;
       right: 16px;
       bottom: 16px;
+      margin: auto;
     } 
    .home__description{
     font-size: var(--font-medium);
