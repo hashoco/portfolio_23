@@ -485,17 +485,17 @@
   
    .arrow-up{
     position: fixed;
-    bottom:50px;
+    bottom: 50px;
     right: 50px;
-    width: 50px;
-    height: 50px;
-    font-size:50px;
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
     color: var(--color-white);
-    background-color : #A0C3D2;
+    background-color: var(--color-pink);
     border-radius: 50%;
     opacity: 0;
-    transition:  opacity 300ms ease-in;
     pointer-events: none;
+    transition: opacity 300ms ease-in;
    }  
    
     .arrow-up.visible{
@@ -556,20 +556,14 @@
       flex-grow: 1;
     }
   
-    .arrow-up{
-      position: fixed;
-      bottom:50px;
-      right: 35px;
+     .arrow-up {
       width: 50px;
       height: 50px;
-      font-size:40px;
-      color: var(--color-white);
-      background-color : #A0C3D2;
-      border-radius: 50%;
-      opacity: 0;
-      transition:  opacity 300ms ease-in;
-      pointer-events: none;
-     }  
+      font-size: 30px;
+      line-height: 50px;
+      right: 16px;
+      bottom: 16px;
+    } 
    .home__description{
     font-size: var(--font-medium);
    }
