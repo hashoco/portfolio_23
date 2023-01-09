@@ -563,7 +563,7 @@
       line-height: 50px;
       right: 16px;
       bottom: 16px;
-      margin: auto;
+      padding: 5px 5px 5px 5px;
     } 
    .home__description{
     font-size: var(--font-medium);
