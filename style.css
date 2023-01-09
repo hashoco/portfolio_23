@@ -264,13 +264,14 @@
   .job__description {
     margin: 0 16px;
     text-align: left;
+
   }
   
   .job__name,
   .job__period {
     color: var(--color-light-grey);
     height: 30px;
-    width: 150px;
+    width: 170px;
   }
   
   .job__name {
