@@ -19,7 +19,6 @@ const navbarHeight = navbar
         }
 
     });
-
 //navbar scrolling handle
 const navbarMenu = document.querySelector('.navbar__menu');
 
