@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://hashoco.github.io/portfolio_23/">
+        <meta property="og:title" content="Yang">
+        <meta property="og:image" content="https://hashoco.github.io/portfolio_23/imgs/sheepImg.png">
+        <meta property="og:description" content="Yang's Portfolio">
+        <meta property="og:site_name" content="Site Name">
+        <meta property="og:locale" content="en_US">
+        <!-- 다음의 태그는 필수는 아니지만, 포함하는 것을 추천함 -->
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <title>Yang's Portfolio</title>
+        <meta name="description" content="Portfolio for ERP engineer Yang">
+        <meta name="author" content="Yang">
+        <link rel="icon" type="image/png" href="imgs/favicon.png">
+        <script src="https://kit.fontawesome.com/0a555259d6.js" crossorigin="anonymous"></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer="defer"></script>
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav id="navbar">
+            <div class="navbar__logo">
+                <!--이미지를 못골라서 임시 주석처리-->
+                <!--<img src="imgs/favicon.png" alt="" width="10px" height="15px">-->
+                <a href="#">Yang</a>
+            </div>
+
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item active" data-link="#home">Home</li>
+                <li class="navbar__menu__item" data-link="#about">About</li>
+                <li class="navbar__menu__item" data-link="#skills">Skills</li>
+                <li class="navbar__menu__item" data-link="#work">My Work</li>
+                <li class="navbar__menu__item" data-link="#contact">Contact</li>
+            </ul>
+
+            <button class="navbar__toggle-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <section id="home">
+            <div class="scroll__container">
+                <img src="imgs/mainimg.png" alt="Y's Portfolio Photo" class="home__avatar"/>
+                <h1 class="home__title">Hello!<br>
+                    I'm Yang,<br>
+                    a 9th year developer.
+                  </h1>
+                  <h2 class="home__description">
+                    ERP software development is my main job.<br>
+                    I specialize in building stable and scalable systems,<br>
+                    and I strive to improve business efficiency through technology.
+                  </h2>
+                                     
+                <button class="home__contact">Contact Me</button>
+            </div>
+        </section>
+        <section id="about" class="section">
+
+            <h1>About Me</h1>
+            <p>
+                I am Yang, a developer who greets tomorrow with sincerity and passion.
+            </p>
+            <div class="about__majors">
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <h2 class="major__title">Frond-end</h2>
+                    <div class="major__description">
+                        HTML, CSS, JavaScript
+                        <br/>JSP, React, MiplatForm, Nexacro
+
+                    </div>
+                </div>
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fa-sharp fa-solid fa-computer"></i>
+                    </div>
+                    <h2 class="major__title">Back-end</h2>
+                    <div class="major__description">
+                        Java Spring, Spring Boot
+                    </div>
+                </div>
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h2 class="major__title">Database</h2>
+                    <div class="major__description">
+                        Oracle, MSsql, Mysql, Mongodb
+                    </div>
+                </div>
+            </div>
+            <div class="about__jobs">
+                <div class="job">
+                    <img src="imgs/jobs/nst.png" alt="" class="job__logo">
+                    <div class="job__description">
+                        <p class="job__name">
+                            나인에스티 - 컨설팅본부</p>
+                        <p class="job__period">2016.08 ~ 2019.08</p>
+                    </div>
+                </div>
+                <div class="job">
+                    <img src="imgs/jobs/sekanskeen.png" alt="" class="job__logo">
+                    <div class="job__description">
+                        <p class="job__name">
+                            세컨스킨 - 전산팀</p>
+                        <p class="job__period">2019.09 ~ 2020.09</p>
+                    </div>
+                </div>
+                <div class="job">
+                    <img src="imgs/jobs/holdings.png" alt="" class="job__logo">
+                    <div class="job__description">
+                        <p class="job__name">
+                            더네이쳐홀딩스 - 전산팀</p>
+                        <p class="job__period">2020.10 ~ 2025.02</p>
+                    </div>
+                </div>
+                <div class="job">
+                    <img src="imgs/jobs/woongjinImg.png" alt="" class="job__logo">
+                    <div class="job__description">
+                        <p class="job__name">
+                            웅진 - E솔루션사업팀</p>
+                        <p class="job__period">2025.02 ~ 재직중</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="section">
+            <div class="section__container">
+                <h1>Skills</h1>
+                <h2>Skill & Attributes</h2>
+                <div class="skillset">
+                    <div class="skillset__left">
+                        <h3 class="skillset_title">Skills</h3>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>HTML/CSS</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>JavaScript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>React</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>JSP</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>DataBase</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>Java Spring</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>AWS</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillset__right">
+                        <div class="tools">
+                            <h3 class="skillset_title">Tools</h3>
+                            <ul class="tools_list">
+                                <li>
+                                    <span>Visual Studio Code</span></li>
+                                <li>
+                                    <span>Visual Studio</span></li>
+                                <li>
+                                    <span>Eclipse</span></li>
+                                <li>
+                                    <span>Toad</span></li>
+                                <li>
+                                    <span>MsSQL Server</span></li>
+                                <li>
+                                    <span>Workbench</span></li>
+                            </ul>
+                        </div>
+                        <div class="section">
+                            <h3 class="skillset_title">Etc</h3>
+                            <ul class="etc__list">
+                                <li>
+                                    <span>Git</span></li>
+                                <li>
+                                    <span>GitHup</span></li>
+                                <li>
+                                    <span>Putty</span></li>
+                                <li>
+                                    <span>Jenkins</span></li>
+                                <li>
+                                    <span>Docker</span></li>      
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="work" class="section">
+            <div class="section__container">
+                <h1>My Works</h1>
+                <h2>Projects</h2>
+                <div class="work__projects">
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">안보지원사령부(구 기무사령부)<br>
+                            웹개발 및 고도화 프로젝트</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>나인에스티(컨설팅본부)</h4>
+                            <h3>기간</h3>
+                            <h4>2017.04 ~ 2017.09
+                                <br/>2018.06 ~ 2018.12</h4>
+                            <h3>담당</h3>
+                            <h4>기밀</h4>
+                            <h3>사용기술</h3>
+                            <h4>javascript , Oracle</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">태성스틸 ERP 도입 프로젝트</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>나인에스티(컨설팅본부)</h4>
+                            <h3>기간</h3>
+                            <h4>2018.12 ~ 2019.02
+                            </h4>
+                            <h3>담당</h3>
+                            <h4>자재</h4>
+                            <h3>사용기술</h3>
+                            <h4>C# , Mssql</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">유유제약 ERP 도입 프로젝트</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>나인에스티(컨설팅본부)</h4>
+                            <h3>기간</h3>
+                            <h4>2019.02 ~ 2019.07
+                            </h4>
+                            <h3>담당</h3>
+                            <h4>영업</h4>
+                            <h3>사용기술</h3>
+                            <h4>C# , Mssql</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">지앤지엔터프라이즈 악산공장
+                            <br/>MES 도입 및 고도화 프로젝트</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>지앤지엔터프라이즈(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2019.08 ~ 2019.12
+                                <br/>2020.06 ~ 2020.08</h4>
+                            <h3>담당</h3>
+                            <h4>자재 및 공정관리</h4>
+                            <h3>사용기술</h3>
+                            <h4>Delphi , Oracle</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">CA/AS 고도화</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2021.03 ~ 2021.06</h4>
+                            <h3>담당</h3>
+                            <h4>CS/AS</h4>
+                            <h3>사용기술</h3>
+                            <h4>MiplatForm , Oracle, Jenkins, Git</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">내부회계 관리</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2021.12 ~ 2022.06</h4>
+                            <h3>담당</h3>
+                            <h4>회계</h4>
+                            <h3>사용기술</h3>
+                            <h4>MiplatForm , Oracle, MSsql, Jenkins, Git</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">가상계좌 I/F</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2022.04 ~ 2022.06</h4>
+                            <h3>담당</h3>
+                            <h4>영업</h4>
+                            <h3>사용기술</h3>
+                            <h4>MiplatForm , Oracle, MySql, Jenkins, Git</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">복합브랜드 POS단일화</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2022.06 ~ 2022.08</h4>
+                            <h3>담당</h3>
+                            <h4>POS</h4>
+                            <h3>사용기술</h3>
+                            <h4>MiplatForm , Oracle, Jenkins, Git</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">ITGC회계감사</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2022.07 ~ 2023.01</h4>
+                            <h3>담당</h3>
+                            <h4>회계/권한/보안</h4>
+                            <h3>사용기술</h3>
+                            <h4>MiplatForm , Oracle, Jenkins, Git</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">ERP-SAP I/F</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2022.12 ~ 2023.03</h4>
+                            <h3>담당</h3>
+                            <h4>회계</h4>
+                            <h3>사용기술</h3>
+                            <h4>MiplatForm , Oracle, Linux, Jenkins, Git</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">CEO 보고일정</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2023.04 ~ 2023.04</h4>
+                            <h3>담당</h3>
+                            <h4>임원보고 및 일정관리</h4>
+                            <h3>사용기술</h3>
+                            <h4>JSP , Oracle, Linux, Jenkins, Git</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">해외법인 ShopLine 매출 I/F</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2023.04 ~ 2023.06</h4>
+                            <h3>담당</h3>
+                            <h4>POS</h4>
+                            <h3>사용기술</h3>
+                            <h4>Nexacro , Oracle, Linux, Jenkins, Git</h4>
+                        </div>
+                    </a>
+                    
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">해외법인 CRM 관리</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2023.05 ~ 2023.08</h4>
+                            <h3>담당</h3>
+                            <h4>고객관리 및 등급/프로모션</h4>
+                            <h3>사용기술</h3>
+                            <h4>Nexacro , Oracle, Linux, Jenkins, Git</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">해외법인 기획수량 관리</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2023.09 ~ 2023.11</h4>
+                            <h3>담당</h3>
+                            <h4>영업기획, 물류</h4>
+                            <h3>사용기술</h3>
+                            <h4>Nexacro , Oracle, Linux, Jenkins, Git</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">해외법인 원가및 재고수불부 관리</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2023.12 ~ 2024.01</h4>
+                            <h3>담당</h3>
+                            <h4>재무, 물류</h4>
+                            <h3>사용기술</h3>
+                            <h4>Nexacro , Oracle, Linux, Jenkins, Git</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">해외법인 Open API 매출 인터페이스 개발</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2024.02 ~ 2024.05</h4>
+                            <h3>담당</h3>
+                            <h4>영업관리, POS</h4>
+                            <h3>사용기술</h3>
+                            <h4>Nexacro, Rest API, Oracle, Linux, Jenkins, Git</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">국내/해외 법인 매장 점주와 경영진 <br>소통을 위한 StoreVoice 웹 개발</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2024.05 ~ 2024.07</h4>
+                            <h3>담당</h3>
+                            <h4>EIS</h4>
+                            <h3>사용기술</h3>
+                            <h4>Nexacro, React, DEEPL API, Oracle, Spring Boot, Linux, Jenkins, Git</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">중국법인 매출 API 인터페이스 </p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2024.08 ~ 2024.11</h4>
+                            <h3>담당</h3>
+                            <h4>영업관리, POS</h4>
+                            <h3>사용기술</h3>
+                            <h4>Nexacro, Rest API, Oracle, Linux, Jenkins, Git</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">시각화 BI TABLEAU 도입 기획/설계</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2024.08 ~ 2024.10</h4>
+                            <h3>담당</h3>
+                            <h4>영업관리, POS</h4>
+                            <h3>사용기술</h3>
+                            <h4>Nexacro, JAVA, Oracle</h4>
+                        </div>
+                    </a>
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">데이터웨어하우스 파이프라인<br> 설계/구축</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2024.10 ~ 2024.12</h4>
+                            <h3>담당</h3>
+                            <h4>전 모듈</h4>
+                            <h3>사용기술</h3>
+                            <h4>Oracle, Snowflake, AWS</h4>
+                        </div>
+                    </a>
+
+                    <a href="#" onclick="return false;" class="project" target="">
+                        <p class="project__text">DW를 활용한 국내/해외 법인<br> 매출 현황 웹페이지 구축</p>
+                        <!--img src="imgs//projects/favicon.png" alt="" class="project__img"-->
+                        <div class="project__description">
+                            <h3>소속 회사</h3>
+                            <h4>더네이쳐홀딩스(전산팀)</h4>
+                            <h3>기간</h3>
+                            <h4>2024.10 ~ 2024.12</h4>
+                            <h3>담당</h3>
+                            <h4>전 모듈</h4>
+                            <h3>사용기술</h3>
+                            <h4>Oracle, Snowflake, AWS, React, Spring Boot</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contact" class="section">
+            <h1 class="contact__title">Let's talk</h1>
+            <h2 class="contact__email">uoco91@gmail.com</h2>
+            <div class="contact__links">
+                <a href="https://github.com/hashoco/" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <i class="fa fa-linkedin-square"></i>
+                </a>
+            </div>
+            <p class="contact__rights">
+                2023 Yang - All rights reserved
+            </p>
+        </section>
+        <button class="arrow-up">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </body>
+</html>
